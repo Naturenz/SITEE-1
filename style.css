@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.perfil{
+border-radius: 25%;
+width: 18%;
+}
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#eecc0d 0%, #f0f34a 40%, #4df836 65%, #aedd70 80%, #78d6ee 90%, #e3faff 98%, #ffffff 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+  }
+  
+  #name {
+    font-size: 50px;
+    font-family: cursive;
+  }
+  
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+  }
+  #bio {
+    font-family: cursive;
+    padding: 50px;
+  }
+  .line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+  }
+  .parallax-inner {
+    padding-top: 70px;
+    vertical-align: middle;
+  }
+  .menu {
+    list-style: none;
+    position:fixed;
+    top:10px;
+    right:30px;
+    z-index: 10;
+cursor: pointer;
+}
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: Impact;
+    font-size: 30px;
+
+}
+#contato{
+  background:linear-gradient( rgb(238, 141, 85) 0%, rgb(250, 147, 78) 13%, rgb(214, 120, 77) 87%, rgb(238, 141, 85) 95%, white 100% );
+}
