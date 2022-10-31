@@ -67,3 +67,15 @@ cursor: pointer;
 #contato{
   background:linear-gradient( rgb(238, 141, 85) 0%, rgb(250, 147, 78) 13%, rgb(214, 120, 77) 87%, rgb(238, 141, 85) 95%, white 100% );
 }
+
+#videos iframe {
+    width: 80%;
+}
+
+.myNavbar {
+    position:fixed;
+    width: 100%;
+    top:0;
+    z-index:99999;
+    margin-top: 0px;
+}
